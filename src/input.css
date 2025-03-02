@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#logs-container {
+  font-family: "Consolas", "Courier New", monospace;
+}
+
+/* Custom scrollbar for logs */
+#logs-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+#logs-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+#logs-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+#logs-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
