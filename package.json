@@ -81,9 +81,8 @@
     "build": {
         "appId": "com.modbus.monitor",
         "productName": "Modbus Monitor",
-        "linux": {
+        "arm64": {
             "target": [
-                "deb",
                 "AppImage"
             ],
             "maintainer": "App app@spidertrac.co.id",
