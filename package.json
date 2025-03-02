@@ -86,9 +86,10 @@
                 "deb",
                 "AppImage"
             ],
+            "maintainer": "App app@spidertrac.co.id",
             "category": "Utility"
         }
-    },
-    "author": "",
+    }, 
+    "author": "app@spidertrac.co.id",
     "license": "MIT"
 }
